@@ -26,6 +26,6 @@ Edite `data.json` para suas playlists e cores no CSS
 📸 **Preview**  
 ![Screenshot](#)  
 
-🔗 **Live Demo**: [Ver online](#)  
+🔗 **Live Demo**: [Ver online](https://clone-do-spotify-by-rafaerujs.netlify.app/)  
 
-Feito com ❤️ por [Seu Nome]  
+Feito com ❤️ por Rafaeru.js  
