@@ -1,0 +1,60 @@
+{
+    "playlists": [
+        {
+            "id": 1,
+            "name": "Daily Mix 1",
+            "description": "Made for you",
+            "cover": "assets/images/playlist1.jpg",
+            "tracks": [
+                {
+                    "id": 1,
+                    "name": "Blinding Lights",
+                    "artist": "The Weeknd",
+                    "file": "assets/songs/song1.mp3"
+                },
+                {
+                    "id": 2,
+                    "name": "Save Your Tears",
+                    "artist": "The Weeknd",
+                    "file": "assets/songs/song2.mp3"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Discover Weekly",
+            "description": "Your weekly mixtape",
+            "cover": "assets/images/playlist1.jpg",
+            "tracks": [
+                {
+                    "id": 3,
+                    "name": "Levitating",
+                    "artist": "Dua Lipa",
+                    "file": "assets/songs/song1.mp3"
+                },
+                {
+                    "id": 4,
+                    "name": "Don't Start Now",
+                    "artist": "Dua Lipa",
+                    "file": "assets/songs/song2.mp3"
+                }
+            ]
+        }
+    ],
+    "recentlyPlayed": [
+        {
+            "id": 5,
+            "name": "Watermelon Sugar",
+            "artist": "Harry Styles",
+            "cover": "assets/images/playlist1.jpg",
+            "file": "assets/songs/song1.mp3"
+        },
+        {
+            "id": 6,
+            "name": "Adore You",
+            "artist": "Harry Styles",
+            "cover": "assets/images/playlist1.jpg",
+            "file": "assets/songs/song2.mp3"
+        }
+    ]
+}

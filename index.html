@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fab fa-spotify"></i>
+                <span>Spotify</span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><i class="fas fa-home"></i> Início</li>
+                    <li><i class="fas fa-search"></i> Buscar</li>
+                    <li><i class="fas fa-book"></i> Sua Biblioteca</li>
+                </ul>
+            </nav>
+            <div class="playlists">
+                <h3>PLAYLISTS</h3>
+                <ul id="playlistContainer"></ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="navigation">
+                    <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="user-profile">
+                    <img src="assets/images/profile.png" alt="Profile">
+                    <span>Usuário</span>
+                </div>
+            </header>
+
+            <section class="featured">
+                <h1>Boa tarde</h1>
+                <div class="playlist-grid" id="featuredPlaylists"></div>
+            </section>
+
+            <section class="recently-played">
+                <h2>Tocados recentemente</h2>
+                <div class="track-list" id="recentTracks"></div>
+            </section>
+        </main>
+
+        <!-- Player -->
+        <footer class="player">
+            <div class="track-info">
+                <img id="currentTrackCover" src="assets/images/playlist1.jpg" alt="Album Cover">
+                <div>
+                    <span id="currentTrackName">Nome da Música</span>
+                    <span id="currentTrackArtist">Artista</span>
+                </div>
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="player-controls">
+                <div class="controls">
+                    <button><i class="fas fa-random"></i></button>
+                    <button><i class="fas fa-step-backward"></i></button>
+                    <button id="playBtn"><i class="fas fa-play"></i></button>
+                    <button><i class="fas fa-step-forward"></i></button>
+                    <button><i class="fas fa-redo-alt"></i></button>
+                </div>
+                <div class="progress-bar">
+                    <span>0:00</span>
+                    <div class="progress-track">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span>3:45</span>
+                </div>
+            </div>
+            <div class="extra-controls">
+                <button><i class="fas fa-list"></i></button>
+                <button><i class="fas fa-laptop"></i></button>
+                <div class="volume-control">
+                    <i class="fas fa-volume-up"></i>
+                    <input type="range" min="0" max="100" value="80">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <audio id="audioPlayer"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
