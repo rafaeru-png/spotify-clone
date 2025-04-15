@@ -28,4 +28,4 @@ Edite `data.json` para suas playlists e cores no CSS
 
 🔗 **Live Demo**: [Ver online](https://clone-do-spotify-by-rafaerujs.netlify.app/)  
 
-Feito com ❤️ por Rafaeru.js  
+Feito com ❤️ por Rafaeru-png
